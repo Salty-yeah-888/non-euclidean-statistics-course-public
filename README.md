@@ -94,20 +94,20 @@
 
 | Lecture | Topic |
 |---|---|
-| [001](lessons/001-introduction.md) | Why Non-Euclidean Statistics? |
-| [002](lessons/002-metric-space.md) | What Is a Metric Space? |
-| [003](lessons/003-metric-balls.md) | Metric Balls and the Geometry of Distance |
-| [004](lessons/004-norm-and-metric.md) | Norms and Metrics |
-| [005](lessons/005-inner-product.md) | Inner Product Spaces |
+| [001](lessons/part-01-mathematical-foundations/001-introduction.md) | Why Non-Euclidean Statistics? |
+| [002](lessons/part-01-mathematical-foundations/002-metric-space.md) | What Is a Metric Space? |
+| [003](lessons/part-01-mathematical-foundations/003-metric-balls.md) | Metric Balls and the Geometry of Distance |
+| [004](lessons/part-01-mathematical-foundations/004-norm-and-metric.md) | Norms and Metrics |
+| [005](lessons/part-01-mathematical-foundations/005-inner-product.md) | Inner Product Spaces |
 
 ### Part II — Geometry of Non-Euclidean Spaces
 
 | Lecture | Topic |
 |---|---|
-| [006](lessons/006-circles-and-spheres.md) | Circles, Spheres, and Geometric Distances |
-| [007](lessons/007-geodesics.md) | Geodesics and Shortest Paths |
-| [008](lessons/008-manifolds.md) | Introduction to Manifolds |
-| [009](lessons/009-tangent-spaces.md) | Tangent Vectors and Tangent Spaces |
+| [006](lessons/part-02-geometry/006-circles-and-spheres.md) | Circles, Spheres, and Geometric Distances |
+| [007](lessons/part-02-geometry/007-geodesics.md) | Geodesics and Shortest Paths |
+| [008](lessons/part-02-geometry/008-manifolds.md) | Introduction to Manifolds |
+| [009](lessons/part-02-geometry/009-tangent-spaces.md) | Tangent Vectors and Tangent Spaces |
 
 
 ---
@@ -193,21 +193,19 @@ F(\omega)
 
 ```text
 non-euclidean-statistics-course/
-│
 ├── README.md
-│
-├── lessons/
-│   ├── 001-introduction.md
-│   ├── 002-metric-space.md
-│   ├── 003-metric-balls.md
-│   ├── 004-norm-and-metric.md
-│   ├── 005-inner-product.md
-│   ├── 006-circles-and-spheres.md
-│   ├── 007-geodesics.md
-│   ├── 008-manifolds.md
-│   └── 009-tangent-spaces.md
-│
-└── images/
+└── lessons/
+    ├── part-01-mathematical-foundations/
+    │   ├── 001-introduction.md
+    │   ├── 002-metric-space.md
+    │   ├── 003-metric-balls.md
+    │   ├── 004-norm-and-metric.md
+    │   └── 005-inner-product.md
+    └── part-02-geometry/
+        ├── 006-circles-and-spheres.md
+        ├── 007-geodesics.md
+        ├── 008-manifolds.md
+        └── 009-tangent-spaces.md
 ```
 
 ---
